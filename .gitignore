@@ -1,4 +1,5 @@
-
 runPSigCalc
+*.swp
+*.bak
 *.o
 src/*.o
