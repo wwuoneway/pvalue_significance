@@ -15,7 +15,8 @@ nuecc  numucc  nc    external
 ------------
 # list the independent sources of uncertainties, and give their effect (syst. error)
 # on each process and bin
-sys_nuecc        0.174  0      0      0      simulation systematic uncertainty
-sys_numucc       0      0.840  0      0      simulation systematic uncertainty
-sys_nc           0      0      0.163  0      simulation systematic uncertainty
-sys_external     0      0      0      0.281  simulation systematic uncertainty
+# sysname  sys_nuecc sys_numucc sys_nc sys_external
+sys_a     0.174  0      0      0      simulation systematic uncertainty
+sys_b     0      0.840  0      0      simulation systematic uncertainty
+sys_c     0      0      0.163  0      simulation systematic uncertainty
+sys_d     0      0      0      0.281  simulation systematic uncertainty

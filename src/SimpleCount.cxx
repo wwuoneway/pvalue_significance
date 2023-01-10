@@ -1,4 +1,7 @@
 // File: SimpleCount.cxx
+// useful references:
+//  - https://twiki.cern.ch/twiki/bin/view/Main/LearningRoostats
+//  - https://indico.cern.ch/event/322208/attachments/623138/857502/main.pdf
 
 #include <iostream>
 #include <string>
