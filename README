@@ -1,0 +1,12 @@
+
+Calculation of p-value and significance for simple counting experiments.
+
+# useful references:
+  - https://twiki.cern.ch/twiki/bin/view/Main/LearningRoostats
+  - https://indico.cern.ch/event/322208/attachments/623138/857502/main.pdf
+
+# compile
+make
+
+# run
+./runPSigCalc datacard.txt 
