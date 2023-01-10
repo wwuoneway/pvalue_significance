@@ -1,0 +1,4 @@
+
+runPSigCalc
+*.o
+src/*.o

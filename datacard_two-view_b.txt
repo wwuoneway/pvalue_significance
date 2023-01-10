@@ -1,0 +1,21 @@
+# Simple counting experiment: H0 hypothesis background-only
+------------
+# imax: number of channels (signal process)
+# jmax: number of backgrounds (background processes)
+# kmax: number of nuisance parameters (sources of systematical uncertainties)
+# imax jmax kmax
+1  3  4
+------------
+# n_obs: observe 81 data events
+81
+------------
+# expected events for signal and all backgrounds from simulation
+nuecc  numucc  nc    external
+65.423 3.538   9.274 8.955
+------------
+# list the independent sources of uncertainties, and give their effect (syst. error)
+# on each process and bin
+sys_nuecc        0.174  0      0      0      simulation systematic uncertainty
+sys_numucc       0      0.840  0      0      simulation systematic uncertainty
+sys_nc           0      0      0.163  0      simulation systematic uncertainty
+sys_external     0      0      0      0.281  simulation systematic uncertainty
